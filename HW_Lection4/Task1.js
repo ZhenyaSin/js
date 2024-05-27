@@ -16,7 +16,7 @@
 
 
 
-let age = 60;
+let age = 10;
 let age_2 = 18;
 let age_3 = 60;
 

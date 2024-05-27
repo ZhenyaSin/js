@@ -3,12 +3,12 @@
 //   И если он не number - кидалась ошибка в консоль.
 //   Проверить работу кода на следующих данных 17, 18, 61, "2", "aaa"
 
-let age = 'aaa';
+let age = '10';
 let age_2 = 18;
 let age_3 = 60;
 
-if (typeof age !== 'number' || typeof age_2 !== 'number' || typeof age_3 !== 'number') {
-    console.log('one of the ages is not a number');
+if (typeof age !== 'number' && !isNaN(age)) {
+    console.log('age is not a number');
 } else {
     if (age < age_2) {
         console.log(`You don't have access cause your age is ' + '${age}' + ' It's less then `);
