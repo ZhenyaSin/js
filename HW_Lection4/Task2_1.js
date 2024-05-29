@@ -1,8 +1,8 @@
 // 1.
 // Реализовать Task 1 через switch
-let age = "aaa";
-let age_2 = 18;
-let age_3 = 61;
+const age = "aaa";
+const age_2 = 18;
+const age_3 = 61;
 
 
 switch(true) {
