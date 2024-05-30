@@ -11,7 +11,7 @@
 
 const a = ":)";
 
-for (let i = 0; i < 5; i++) {
+for (const i = 0; i < 5; i++) {
     const result = a.repeat(i+1);
     console.log(`${result}\n`)
 }
