@@ -7,7 +7,7 @@ const age = '10';
 const age_2 = 18;
 const age_3 = 60;
 
-if (!isNaN(age)) {
+if (typeof age === `number`) {
     console.log('age is not a number');
 } else {
     if (age < age_2) {
