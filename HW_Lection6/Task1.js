@@ -18,8 +18,9 @@ function getEmployeeInfo(employee) {
 			employeesPlusSalary.push(employees[i], salary[i]);
 			console.log(employeesPlusSalary)
 			return employeesPlusSalary
-		}
-	} console.log(null);
-}
+		} 
+	} 
+	console.log(null);
+} 
 
-getEmployeeInfo('Anastasiasss')
+getEmployeeInfo('Anastasia')
